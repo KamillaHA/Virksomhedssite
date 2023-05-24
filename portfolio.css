@@ -22,13 +22,13 @@ body {
     align-items: center ;
 }
 
-.container .box .dream {
+.container .box .column{
     display: flex;
     flex-direction: column;
     width: 33%;
 }
 
-.container .box .dream img {
+.container .box .column img {
     width: 100%;
     padding-bottom: 10px;
     border-radius: 0px;
