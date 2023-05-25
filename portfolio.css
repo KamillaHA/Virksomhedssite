@@ -4,6 +4,7 @@ body {
 
 *{
     box-sizing: border-box;
+    
 }
 
 .container{
@@ -30,6 +31,6 @@ body {
 
 .container .box .column img {
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
     border-radius: 0px;
 }
