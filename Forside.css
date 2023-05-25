@@ -1,3 +1,63 @@
 body {
     background-color: #EB645F;
 }
+
+marquee {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: #cee078;
+    font-family: Abenda;
+    font-size: 12px;
+    background-color: transparent;
+    white-space: nowrap;
+  }
+
+
+  /* H1 */
+.Forside_h1 {
+    font-family: Codigra;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Footer_forside {
+    font-family: ;
+    color: #cee078;
+}
+
+@font-face {
+    font-family: Codigra;
+    src: url(Font/Codigra.ttf);
+}
+
+@font-face {
+    font-family: Capuche;
+    src: url(Font/Capuche\ Trial.otf);
+}
+
+@font-face {
+    font-family: Gazebo;
+    src: url(Font/Gazebo\ DEMO!!!.otf);
+}
+
+@media (min-width: 800px) {
+marquee {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    color: #cee078;
+    font-size: 24px;
+    background-color: transparent;
+      }
+
+.Forside_h1 {
+    font-size: 100px;
+}
+}
