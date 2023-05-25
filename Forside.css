@@ -15,36 +15,6 @@ marquee {
     white-space: nowrap;
   }
 
-
-  /* H1 */
-.Forside_h1 {
-    font-family: Codigra;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.Footer_forside {
-    color: #cee078;
-}
-
-@font-face {
-    font-family: Codigra;
-    src: url(Font/Codigra.ttf);
-}
-
-@font-face {
-    font-family: Capuche;
-    src: url(Font/Capuche\ Trial.otf);
-}
-
-@font-face {
-    font-family: Gazebo;
-    src: url(Font/Gazebo\ DEMO!!!.otf);
-}
-
 @media (min-width: 800px) {
 marquee {
     display: flex;

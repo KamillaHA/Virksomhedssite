@@ -36,7 +36,12 @@ img {
 }
 
 footer {
+    background-color: #cee078;
     padding: 20px;
+}
+
+footer, p {
+    color: #EC70BF;
 }
 
 /*--------------- Menu ---------------*/
