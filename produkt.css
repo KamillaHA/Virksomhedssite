@@ -8,8 +8,7 @@
   body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-
-    background-color: #a1d5fb;
+    background-color: #f2f2f2;
   }
   
   header {
@@ -41,27 +40,69 @@
     transition: background-color 0.3s ease;
   }
 
-  ul {
-    list-style-type: disc; /* Set the bullet style (e.g., disc, circle, square) */
-    color: blue; /* Set the color of the bullets */
-    padding-left: 20px; /* Adjust the space between the bullet and the text */
-  }
-  
-  li {
-    margin-bottom: 5px; /* Adjust the spacing between list items */
-  }
-  
-  
-  .panel {
-    display: none;
-    padding: 10px;
-    background-color: #fff;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
-  
+ul {
+  list-style-type: disc; /* Set the bullet style (e.g., disc, circle, square) */
+  color: blue; /* Set the color of the bullets */
+  padding-left: 20px; /* Adjust the space between the bullet and the text */
+}
+
+li {
+  margin-bottom: 5px; /* Adjust the spacing between list items */
+}
+
+
+.panel {
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.box1 {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.box2 {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.box3 {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.box4 {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+
+.box1.unfold {
+  max-height: 500px; /* Adjust this value to match the content height */
+  transition: max-height 0.3s ease;}
+
+
+  .box2.unfold2 {
+    max-height: 503px; /* Adjust this value to match the content height */
+    transition: max-height 0.3s ease;}
+
+
+    .box3.unfold3 {
+      max-height: 500px; /* Adjust this value to match the content height */
+      transition: max-height 0.3s ease;}
+      
+      .box4.unfold4 {
+        max-height: 500px; /* Adjust this value to match the content height */
+        transition: max-height 0.3s ease;}

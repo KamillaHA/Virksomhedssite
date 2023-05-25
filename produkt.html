@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Generel style.css">
-    <link rel="stylesheet" href="Generel layout.css">
-    <link rel="stylesheet" href="produkt.css">
+
+    <link rel="stylesheet" href="./produkt.css">
+    <script src="./produkt.js"></script>
     <title>Produkt</title>
 </head>
 <body>
@@ -31,8 +31,9 @@
   
     <main>
       <section>
-        <h2 class="accordion">Visual Merchandising</h2>
-        <p class="panel">Visual merchandising er den gyldne vej til større kundeflow, (mer)salg og ikke mindst at kommunikere dit brands værdier og æstetik til din målgruppe. 
+        <h2 onclick="toggleBox1()">Visual Merchandising</h2>
+        <div class="box1" id="box1">
+        <p> Visual merchandising er den gyldne vej til større kundeflow, (mer)salg og ikke mindst at kommunikere dit brands værdier og æstetik til din målgruppe. 
             Indenfor Visual Merchandising tilbyder jeg: 
             <ul>
             <li>Vinduer & styling</li>
@@ -45,14 +46,15 @@
             <li>Showrooms.</li>
         </ul>
         </p>
+    </div>
       </section>
   
       <section>
-        <h2 class="accordion">Sociale medier</h2>
-        <p class="panel">Sociale medier handler om meget mere end Instagram følgere og dans på TikTok.
+        <h2 onclick="toggleBox2()">Sociale medier</h2>
+        <div class="box2" id="box2">
+        <p> Sociale medier handler om meget mere end Instagram følgere og dans på TikTok.
 
             For mig er personlighed, æstetik og klar kommunikation blandt kernestene til at opbygge et loyalt community, der interagerer, deler og ikke mindst konverterer hos dit brand. 
-            
             Indenfor sociale medier tilbyder jeg:
             <ul>
             <li>Udarbejdelse af strategi</li>
@@ -62,26 +64,30 @@
             <li>Content creation </li>
         </ul>
     </p>
+    </div>
       </section>
   
       <section>
-        <h2 class="accordion">PR</h2>
-        <p class="panel">Indenfor PR, arbejder jeg primært med influencer marketing. Jeg specialiserer mig i at skabe stærke og personlige relationer mellem dit brand og de ambassadører, der matcher jeres kernemarked, målgruppe og værdier.
+        <h2 onclick="toggleBox3()">PR</h2>
+        <div class="box3" id="box3">
+        <p> Indenfor PR, arbejder jeg primært med influencer marketing. Jeg specialiserer mig i at skabe stærke og personlige relationer mellem dit brand og de ambassadører, der matcher jeres kernemarked, målgruppe og værdier.
 
             Indenfor influencer marketing tilbyder jeg:
-            <!--- <ul>
+            <ul>
             <li>Udarbejdelse af strategi</li>
             <li>Planlægning af PR-kalender </li>
             <li>Kontakt til influencers</li>
             <li>Gifting og samarbejder </li>
             <li>Influencer events</li>
-        </ul> -->
+        </ul> 
     </p>
+    </div>
       </section>
   
       <section>
-        <h2 class="accordion">Salgsoptimering</h2>
-        <p class="panel">Min kommercielle og kreative tilgang til salgskampagner og events kan give din omsætning et boost - uanset om du vil aktivere din fysiske butik, din webshop eller få tømt ud i varelageret. 
+        <h2 onclick="toggleBox4()">Salgsoptimering</h2>
+        <div class="box4" id="box4">
+        <p>Min kommercielle og kreative tilgang til salgskampagner og events kan give din omsætning et boost - uanset om du vil aktivere din fysiske butik, din webshop eller få tømt ud i varelageret. 
 
             Indenfor Salgsoptimering tilbyder jeg:
             <ul>
@@ -89,7 +95,9 @@
             <li>Salgs-workshops</li>
             <li>Udarbejdelse af salgskampagner</li>
             <li>Lagersalg / sample sale</li>
-        </ul></p>
+        </ul>
+      </p>
+        </div>
       </section>
     </main>
   
