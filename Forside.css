@@ -15,9 +15,18 @@ marquee {
     white-space: nowrap;
   }
 
-  .Forside-billede {
-    max-width: 100%;
+main {
+    min-height: 100vh;
+    background: url(img/Forside-billede.png) no-repeat;
+    background-size: cover;
+    background-position: center;
   }
+
+.Logo-forside {
+    max-width: 60%;
+    margin-left: 24%;
+    margin-top: 75%;
+}
 
 @media (min-width: 800px) {
 marquee {
@@ -28,9 +37,11 @@ marquee {
     color: #cee078;
     font-size: 24px;
     background-color: transparent;
-      }
+    }
 
-.Forside_h1 {
-    font-size: 100px;
-}
+.Logo-forside {
+    max-width: 40%;
+    margin-left: 31%;
+    margin-top: 7%;
+    }
 }

@@ -1,7 +1,7 @@
 @media (min-width: 800px) {
     nav {
         height: 12%;
-        text-align: right;
+        text-align: left;
         letter-spacing: 1px;
         background-color: #cee078;
         padding: 30px;
@@ -40,4 +40,31 @@
         background-color: #EC70BF;
         color: #cee078;
     }
+
+    .logo {
+        width: 100px;
+        cursor: pointer;
+        margin-bottom: -4.5%;
     }
+
+    main {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+
+    footer {
+        font-family: Abenda;
+        font-size: 24px;
+        background-color: #cee078;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 20px;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    }
+
