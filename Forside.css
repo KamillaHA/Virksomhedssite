@@ -15,6 +15,10 @@ marquee {
     white-space: nowrap;
   }
 
+  .Forside-billede {
+    max-width: 100%;
+  }
+
 @media (min-width: 800px) {
 marquee {
     display: flex;
