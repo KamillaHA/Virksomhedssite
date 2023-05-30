@@ -7,6 +7,9 @@ main {
     margin-left: 20px;
     margin-right: 20px;
     letter-spacing: 1px;
+    text-align: center;
+    line-height: 1.5;
+    max-width: 800px;
 }
 
 img {
@@ -28,6 +31,14 @@ video {
 
 h2 {
     padding-top: 48px;
+}
+
+h1, h2 {
+    color: #A1D5FB;
+}
+
+p {
+    color: #cee078;
 }
 
 .video video  {
