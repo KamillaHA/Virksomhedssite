@@ -17,7 +17,7 @@ marquee {
 
 main {
     min-height: 100vh;
-    background: url(img/Forside-billede.png) no-repeat;
+    background: url(img/Forside-billede.webp) no-repeat;
     background-size: cover;
     background-position: center;
   }
