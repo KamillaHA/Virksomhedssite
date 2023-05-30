@@ -1,6 +1,5 @@
 body {
     background-color: #ec70bf;
-    margin: auto;
 }
 
 main {
@@ -13,7 +12,10 @@ main {
 
 img {
     max-width: 100%;
-    padding-top: 60px;
+}
+
+main img {
+    padding-top: 70px;
 }
 
 video {
@@ -34,9 +36,14 @@ h1, h2 {
     text-align: center;
 }
 
+footer p {
+    color: #EC70BF;
+}
+
 p {
     color: #cee078;
 }
+
 .video video  {
     width: 100%;
     height: auto;
