@@ -1,74 +1,62 @@
-/* Reset default browser styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
+main {
+text-align: center;
+}
   
   body {
-    font-family: Arial, sans-serif;
+    
     line-height: 1.5;
-    background-color: #f2f2f2;
+    background-color: #A1D5FB;
   }
   
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
+ 
   
   header h1 {
     font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
   }
   
-  main {
-    padding: 20px;
-  }
+  
   
   section {
     margin-bottom: 20px;
   }
-  
-  .accordion {
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-    background-color: #eee;
-    border: none;
-    outline: none;
-    transition: background-color 0.3s ease;
-  }
 
-ul {
-  list-style-type: disc; /* Set the bullet style (e.g., disc, circle, square) */
-  color: blue; /* Set the color of the bullets */
-  padding-left: 20px; /* Adjust the space between the bullet and the text */
-}
 
 li {
-  margin-bottom: 5px; /* Adjust the spacing between list items */
-}
-
-
-.panel {
-  display: none;
-  padding: 10px;
-  background-color: #fff;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
+  margin-bottom: 0.5em;
 }
 
 .box1 {
+  
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease;
 }
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Add spacing between the two elements */
+  text-align: center;
+  
+}
+.container p {
+  grid-row: 1;
+}
+
+.container ul {
+  grid-row: 2;
+  list-style-type: disc;
+  padding-left: 20px;
+  padding-right: 20px;;
+}
+ 
+.box1 ul li::before {
+  content: "•";
+  width: 1em;
+
+}
+
 
 .box2 {
   overflow: hidden;
