@@ -26,27 +26,25 @@ text-align: center;
 
 li {
   margin-bottom: 0.5em;
+  
 }
 
 .box1 {
-  
+  display: grid;
+  grid-template-rows: 1fr 1fr; /* Add spacing between the two elements */
+  gap: 20px;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.3s ease;
+
 }
-.container {
-  display: grid;
-  grid-template-rows: 1fr 1fr; /* Add spacing between the two elements */
-  text-align: center;
-  
-}
-.container p {
+
+.box1 p {
   grid-row: 1;
 }
 
-.container ul {
+.box1 ul li {
   grid-row: 2;
-  list-style-type: disc;
   padding-left: 20px;
   padding-right: 20px;;
 }
@@ -54,10 +52,18 @@ li {
 .box1 ul li::before {
   content: "•";
   width: 1em;
-
 }
 
+.vertical-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
 
+.vertical-list li {
+  margin-bottom: 10px;
+}
 .box2 {
   overflow: hidden;
   max-height: 0;
