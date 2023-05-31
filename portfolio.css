@@ -7,6 +7,10 @@ body {
     
 }
 
+h1 {
+    color: #A1D5FB;
+}
+
 .container{
     display: flex;
     flex-direction: column ;
