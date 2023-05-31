@@ -111,17 +111,12 @@ li {
         max-height: 500px; /* Adjust this value to match the content height */
         transition: max-height 0.3s ease;}
 
-<<<<<<< HEAD
-/* .grid_1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-span: 2/3;
-} */
+
 
 img {
 max-width: 100%;
 }
-=======
+
 /*----------------- Kontakt formular css -----------------*/
 body {font-family: Abenda;}
 * {box-sizing: border-box;}
@@ -166,4 +161,4 @@ input[type=submit]:hover {
   margin-top: 80px;
 margin-bottom: -50px;
 }
->>>>>>> 3f10808ec2ce453f0040df22269e2dbfa334e1bc
+
