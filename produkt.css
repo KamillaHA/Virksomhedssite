@@ -15,6 +15,19 @@ text-align: center;
     font-size: 24px;
     text-align: center;
     padding-bottom: 20px;
+   
+  }
+
+  h1, h2{
+    color: #EC70BF;
+  }
+  
+  p {
+     color: #EC70BF;
+  }
+
+  li {
+    color:#EC70BF;
   }
   
   
@@ -29,32 +42,26 @@ li {
   
 }
 
-.box1 {
-  display: grid;
-  grid-template-rows: 1fr 1fr; /* Add spacing between the two elements */
-  gap: 20px;
-  overflow: hidden;
-  max-height: 0;
-  transition: max-height 0.3s ease;
-
+h2 :hover:not(.active) {
+  background-color: #EC70BF;
+  color: #cee078;
+  cursor: pointer;
 }
 
-.box1 p {
-  grid-row: 1;
+h2:hover:not(.active) {
+  background-color: #EC70BF;
+  color: #cee078;
+  cursor: pointer;
 }
 
-.box1 ul li {
-  grid-row: 2;
-  padding-left: 20px;
-  padding-right: 20px;;
-}
- 
-.box1 ul li::before {
-  content: "•";
-  width: 1em;
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.vertical-list {
+ .vertical-list {
   display: flex;
   flex-direction: column;
   list-style-type: none;
@@ -63,6 +70,13 @@ li {
 
 .vertical-list li {
   margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.box1 {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease;
 }
 .box2 {
   overflow: hidden;
@@ -101,6 +115,12 @@ li {
         max-height: 500px; /* Adjust this value to match the content height */
         transition: max-height 0.3s ease;}
 
+
+
+img {
+max-width: 100%;
+}
+
 /*----------------- Kontakt formular css -----------------*/
 body {font-family: Abenda;}
 * {box-sizing: border-box;}
@@ -118,8 +138,8 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   font-family: Abenda;
-  background-color: #04AA6D;
-  color: white;
+  background-color: #cee078;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -127,7 +147,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #cee078;
 }
 
 ::placeholder {
@@ -145,3 +165,4 @@ input[type=submit]:hover {
   margin-top: 80px;
 margin-bottom: -50px;
 }
+
