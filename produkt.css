@@ -118,8 +118,8 @@ input[type=text], select, textarea {
 
 input[type=submit] {
   font-family: Abenda;
-  background-color: #04AA6D;
-  color: white;
+  background-color: #cee078;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -127,7 +127,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #cee078;
 }
 
 ::placeholder {
