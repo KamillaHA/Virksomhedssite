@@ -111,6 +111,7 @@ li {
         max-height: 500px; /* Adjust this value to match the content height */
         transition: max-height 0.3s ease;}
 
+<<<<<<< HEAD
 /* .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -120,3 +121,49 @@ li {
 img {
 max-width: 100%;
 }
+=======
+/*----------------- Kontakt formular css -----------------*/
+body {font-family: Abenda;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #A1D5FB;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-family: Abenda;
+  background-color: #cee078;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #cee078;
+}
+
+::placeholder {
+  font-family: Abenda;
+  font-size: 12px;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 80px;
+}
+
+#Kontakt-mig {
+  text-align: center;
+  margin-top: 80px;
+margin-bottom: -50px;
+}
+>>>>>>> 3f10808ec2ce453f0040df22269e2dbfa334e1bc
